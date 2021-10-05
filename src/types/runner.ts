@@ -13,7 +13,7 @@ export type RunnerOptionalOptions = {
   assetTypes: OtherAssetType[];
   formatOptions: FormatOptions;
   pathOptions: { [key in AssetType]?: string };
-  startCodepoint: number,
+  startCodepoint: number;
   codepoints: CodepointsMap;
   fontHeight: number;
   descent: number;
