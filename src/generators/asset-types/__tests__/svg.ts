@@ -1,4 +1,4 @@
-import * as _SVGIcons2SVGFontStream from 'svgicons2svgfont';
+import * as _SVGIcons2SVGFontStream from '@ramirezcgn/svgicons2svgfont';
 import { FontAssetType } from '../../../types/misc';
 import { FontGeneratorOptions } from '../../../types/generator';
 import svgGen from '../svg';
@@ -13,7 +13,7 @@ jest.mock('fs', () => ({
   })
 }));
 
-jest.mock('svgicons2svgfont', () => {
+jest.mock('@ramirezcgn/svgicons2svgfont', () => {
   const { EventEmitter } = require('events');
 
   class MockStream {

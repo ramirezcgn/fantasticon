@@ -5,12 +5,15 @@
 ![Screenshot](https://fantasticon.s3.eu-west-2.amazonaws.com/readme/screenshot.png)
 
 <blockquote align="center">
+  Fork of ![fantasticon](https://github.com/tancredi/fantasticon) that implements a forked
+  version of [svgicons2svgfont](https://github.com/ramirezcgn/svgicons2svgfont) that support
+  more options than the original.
   Easy-to-use, pre-configured CLI tool to generate web-font icon kits from SVG files
 </blockquote>
 
 <p align="center">
-  <img src="https://github.com/tancredi/fantasticon/workflows/Test/badge.svg" alt="Test status">
-  <img src="https://github.com/tancredi/fantasticon/workflows/Release/badge.svg" alt="Release status">
+  <img src="https://github.com/ramirezcgn/fantasticon/workflows/Test/badge.svg" alt="Test status">
+  <img src="https://github.com/ramirezcgn/fantasticon/workflows/Release/badge.svg" alt="Release status">
 </p>
 
 ### Intro
@@ -152,6 +155,7 @@ generateFonts({
   formatOptions: { json: { indent: 2 } },
   templates: {},
   pathOptions: {},
+  startCodepoint: 0xf101,
   codepoints: {},
   fontHeight: 300,
   round: undefined, // --
@@ -202,4 +206,4 @@ PRs are always welcome. If you need help questions, want to bounce ideas or just
 
 ### License
 
-Copyright (c) 2020 Tancredi Trugenberger. - Released under the [MIT license](https://github.com/tancredi/fantasticon/blob/master/LICENSE)
+Copyright (c) 2020 Tancredi Trugenberger. - Released under the [MIT license](https://github.com/ramirezcgn/fantasticon/blob/master/LICENSE)
