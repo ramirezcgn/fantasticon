@@ -10,6 +10,7 @@ const generator: FontGenerator<void> = {
     fontHeight,
     descent,
     normalize,
+    preserveAspectRatio,
     assets,
     codepoints,
     formatOptions: { svg } = {}
@@ -22,6 +23,7 @@ const generator: FontGenerator<void> = {
         fontHeight,
         descent,
         normalize,
+        preserveAspectRatio,
         log: () => null,
         ...svg
       })
