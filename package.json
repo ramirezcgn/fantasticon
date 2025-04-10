@@ -1,6 +1,6 @@
 {
   "name": "@ramirezcgn/fantasticon",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Fork of fantasticon that implements a forked version of svgicons2svgfont that support more options than the original.",
   "repository": {
     "type": "git",
