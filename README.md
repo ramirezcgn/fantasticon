@@ -5,8 +5,7 @@
 ![Screenshot](https://fantasticon.s3.eu-west-2.amazonaws.com/readme/screenshot.png)
 
 <blockquote align="center">
-  Fork of <a href="https://github.com/tancredi/fantasticon">fantasticon</a> that implements a forked
-  version of <a href="https://github.com/ramirezcgn/svgicons2svgfont">svgicons2svgfont</a> that support
+  Fork of <a href="https://github.com/tancredi/fantasticon">fantasticon</a> that support
   more options than the original.
   Easy-to-use, pre-configured CLI tool to generate web-font icon kits from SVG files
 </blockquote>
